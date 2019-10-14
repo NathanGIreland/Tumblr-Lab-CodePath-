@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		7232ABDC2354E291004309DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232ABDB2354E291004309DF /* AppDelegate.swift */; };
 		7232ABDE2354E291004309DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232ABDD2354E291004309DF /* SceneDelegate.swift */; };
-		7232ABE02354E291004309DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232ABDF2354E291004309DF /* ViewController.swift */; };
 		7232ABE32354E291004309DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7232ABE12354E291004309DF /* Main.storyboard */; };
 		7232ABE52354E293004309DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7232ABE42354E293004309DF /* Assets.xcassets */; };
 		7232ABE82354E293004309DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7232ABE62354E293004309DF /* LaunchScreen.storyboard */; };
 		7232ABF32354E293004309DF /* TumblrLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232ABF22354E293004309DF /* TumblrLabTests.swift */; };
 		7232ABFE2354E293004309DF /* TumblrLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232ABFD2354E293004309DF /* TumblrLabUITests.swift */; };
+		7232AC102354E8DF004309DF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232AC0F2354E8DF004309DF /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		7232ABD82354E291004309DF /* TumblrLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumblrLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7232ABDB2354E291004309DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7232ABDD2354E291004309DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7232ABDF2354E291004309DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7232ABE22354E291004309DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7232ABE42354E293004309DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7232ABE72354E293004309DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		7232ABF92354E293004309DF /* TumblrLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7232ABFD2354E293004309DF /* TumblrLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrLabUITests.swift; sourceTree = "<group>"; };
 		7232ABFF2354E293004309DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7232AC0F2354E8DF004309DF /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				7232ABDB2354E291004309DF /* AppDelegate.swift */,
 				7232ABDD2354E291004309DF /* SceneDelegate.swift */,
-				7232ABDF2354E291004309DF /* ViewController.swift */,
 				7232ABE12354E291004309DF /* Main.storyboard */,
+				7232AC0F2354E8DF004309DF /* PhotosViewController.swift */,
 				7232ABE42354E293004309DF /* Assets.xcassets */,
 				7232ABE62354E293004309DF /* LaunchScreen.storyboard */,
 				7232ABE92354E293004309DF /* Info.plist */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7232ABE02354E291004309DF /* ViewController.swift in Sources */,
+				7232AC102354E8DF004309DF /* PhotosViewController.swift in Sources */,
 				7232ABDC2354E291004309DF /* AppDelegate.swift in Sources */,
 				7232ABDE2354E291004309DF /* SceneDelegate.swift in Sources */,
 			);
